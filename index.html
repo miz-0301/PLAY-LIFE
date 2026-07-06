@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,118 +11,127 @@
 
 <body>
 
-<header>
+    <header>
 
-    <div class="logo">
-        PLAY & LIFE
-    </div>
-
-    <nav>
-        <ul>
-           <li><a href="index.html">TOP</a></li>
-            <li><a href="layouts.html">レイアウト一覧</a></li>
-            <li><a href="guide.html">初心者ガイド</a></li>
-            <li><a href="about.html">このサイトについて</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-<main>
-
-    <section class="hero">
-    </section>
-
-    <section>
-
-        <h1>理想のPC環境を見つけよう</h1>
-
-        <p>
-            レイアウト紹介と初心者向けガイドで<br>
-            快適な作業空間づくりをサポートします。
-        </p>
-
-        <a href="about.html" class="btn">
-            このサイトについて
+        <a href="index.html">
+            <div class="logo">
+                PLAY & LIFE
+            </div>
         </a>
 
-    </section>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span
+                            style="border-bottom: 2px solid #797979; padding-bottom: 2px;">TOP</span></a></li>
+                <li><a href="layouts.html">レイアウト一覧</a></li>
+                <li><a href="guide.html">初心者ガイド</a></li>
+                <li><a href="about.html">このサイトについて</a></li>
+            </ul>
+        </nav>
 
-    <section>
+    </header>
 
-        <h2>おすすめレイアウト</h2>
+    <main>
 
-        <div class="layout-container">
+        <section class="hero">
+        </section>
 
-            <div class="card">
+        <section>
 
-                <div class="card-image"></div>
+            <h1>理想のPC環境を見つけよう</h1>
 
-                <div class="card-info">
-                    <h3>6畳FPS向け</h3>
-                    <p>予算：約10万円</p>
-                </div>
+            <p>
+                レイアウト紹介と初心者向けガイドで<br>
+                快適な作業空間づくりをサポートします。
+            </p>
+
+            <a href="about.html" class="btn">
+                このサイトについて
+            </a>
+
+        </section>
+
+        <section>
+
+            <h2>おすすめレイアウト</h2>
+
+            <div class="layout-container">
+                <a href="layout1.html">
+                    <div class="card">
+
+                        <img class="card-image" src="images/layout1.jpg" alt="黒系ゲーミング">
+
+                        <div class="card-info">
+                            <h3>6畳FPS向け</h3>
+                            <p>予算：約20万円</p>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="layout2.html">
+                    <div class="card">
+
+                        <img class="card-image" src="images/layout2.jpg" alt="白形ミニマル">
+
+                        <div class="card-info">
+                            <h3>白系ミニマル</h3>
+                            <p>予算：約23万円</p>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="layout3.html">
+                    <div class="card">
+
+                        <img class="card-image" src="images/layout3.jpg" alt="大学生向け">
+
+                        <div class="card-info">
+                            <h3>大学生向け</h3>
+                            <p>予算：約11万円</p>
+                        </div>
+
+                    </div>
+                </a>
 
             </div>
 
-            <div class="card">
-
-                <div class="card-image"></div>
-
-                <div class="card-info">
-                    <h3>白系ミニマル</h3>
-                    <p>予算：約12万円</p>
-                </div>
-
+            <div class="more">
+                <a href="layouts.html">レイアウト一覧 ＞＞＞</a>
             </div>
 
-            <div class="card">
+        </section>
 
-                <div class="card-image"></div>
+        <section>
 
-                <div class="card-info">
-                    <h3>大学生向け</h3>
-                    <p>予算：約8万円</p>
-                </div>
+            <h2>初心者ガイド</h2>
 
-            </div>
+            <p>
+                PCを買うときに見た方がいいポイントや<br>
+                モニターの選び方などを解説します。
+            </p>
 
-        </div>
+            <a href="guide.html" class="btn">
+                ガイドを見る
+            </a>
 
-        <div class="more">
-            <a href="layouts.html">レイアウト一覧 ＞＞＞</a>
-        </div>
+        </section>
 
-    </section>
+    </main>
 
-    <section>
+    <footer>
 
-        <h2>初心者ガイド</h2>
+        <p>© PLAY & LIFE</p>
 
-        <p>
-            PCを買うときに見た方がいいポイントや<br>
-            モニターの選び方などを解説します。
-        </p>
+    </footer>
 
-        <a href="guide.html" class="btn">
-            ガイドを見る
-        </a>
+    <button id="topBtn">
+        ↑
+    </button>
 
-    </section>
-
-</main>
-
-<footer>
-
-    <p>© PLAY & LIFE</p>
-
-</footer>
-
-<button id="topBtn">
-    ↑
-</button>
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
